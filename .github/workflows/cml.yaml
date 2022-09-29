@@ -29,7 +29,7 @@ jobs:
           python train.py
 
           echo "MODEL METRICS" > report.md
-          cat metrics.cat >> report.md
+          cat metrics.txt >> report.md
           
           echo "## Data viz" >> report.md
           cml-publish feature_importance.png --md >> report.md
