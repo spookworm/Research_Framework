@@ -8,8 +8,13 @@ repos:
     -   id: end-of-file-fixer
     -   id: check-yaml
     -   id: check-added-large-files
+    -   id: requirements-txt-fixer
 -   repo: https://github.com/psf/black
     rev: 22.3.0
     hooks:
     -   id: black
         exclude: ^dist/
+-   repo: https://github.com/jendrikseipp/vulture
+    rev: 'v2.3'  # or any later Vulture version
+    hooks:
+    -   id: vulture
