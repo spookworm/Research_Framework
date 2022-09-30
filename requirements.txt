@@ -1,5 +1,6 @@
-pandas
-sklearn
 matplotlib
-seaborn
 numpy
+pandas
+pre-commit
+seaborn
+sklearn
